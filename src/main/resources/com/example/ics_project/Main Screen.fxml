@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<HBox cache="true" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="650.0" prefWidth="650.0" spacing="5.0" style="-fx-background-color: #15204d;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="650.0" prefWidth="200.0" spacing="30.0" style="-fx-background-color: #000724;">
+         <children>
+            <VBox alignment="CENTER" prefHeight="245.0" prefWidth="185.0" spacing="20.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="30.0" prefWidth="150.0" spacing="45.0" style="-fx-background-color: #15204d; -fx-background-radius: 0;">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="74.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@menu.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="1.0" contrast="1.0" hue="1.0" saturation="1.0" />
+                           </effect>
+                        </ImageView>
+                        <Label text="Dashboard">
+                           <font>
+                              <Font name="Impact" size="20.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <textFill>
+                              <RadialGradient centerX="0.5" centerY="0.528436018957346" focusAngle="-33.49" focusDistance="0.896551724137931" radius="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="1.0" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="1.0" green="0.6095238327980042" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </RadialGradient>
+                           </textFill>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="31.0" prefWidth="115.0" spacing="45.0">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@dumbbell.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="1.0" contrast="1.0" />
+                           </effect>
+                        </ImageView>
+                        <Label contentDisplay="RIGHT" text="Trainer">
+                           <font>
+                              <Font name="Impact" size="20.0" />
+                           </font>
+                           <textFill>
+                              <RadialGradient centerX="0.42265193370165743" centerY="0.7701421800947867" focusAngle="163.37" focusDistance="-1.0" radius="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="1.0" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="0.006711409395973154">
+                                       <color>
+                                          <Color red="1.0" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="1.0" green="0.723809540271759" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </RadialGradient>
+                           </textFill>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="31.0" prefWidth="115.0" spacing="45.0">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@user.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="1.0" />
+                           </effect>
+                        </ImageView>
+                        <Label text="Profile">
+                           <font>
+                              <Font name="Impact" size="20.0" />
+                           </font>
+                           <textFill>
+                              <RadialGradient centerX="0.5" centerY="0.528436018957346" focusAngle="1.74" focusDistance="-0.574712643678161" radius="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="1.0" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="0.006711409395973154">
+                                       <color>
+                                          <Color red="1.0" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="1.0" green="0.6476190686225891" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </RadialGradient>
+                           </textFill>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="31.0" prefWidth="115.0" spacing="45.0">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@progress.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="1.0" contrast="1.0" />
+                           </effect>
+                        </ImageView>
+                        <Label text="Progress">
+                           <font>
+                              <Font name="Impact" size="20.0" />
+                           </font>
+                           <textFill>
+                              <RadialGradient centerX="0.5" centerY="0.528436018957346" focusAngle="127.87" focusDistance="-0.574712643678161" radius="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="1.0" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="0.006711409395973154">
+                                       <color>
+                                          <Color red="1.0" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="1.0" green="0.6095238327980042" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </RadialGradient>
+                           </textFill>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="53.0" prefWidth="185.0" spacing="15.0">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@settings.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="1.0" />
+                           </effect>
+                        </ImageView>
+                        <Label text="Settings">
+                           <font>
+                              <Font name="Impact" size="20.0" />
+                           </font>
+                           <textFill>
+                              <RadialGradient centerX="0.5" centerY="0.528436018957346" focusAngle="46.97" focusDistance="-0.574712643678161" radius="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color green="0.24761904776096344" blue="1.0" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="0.006711409395973154">
+                                       <color>
+                                          <Color green="0.24761904776096344" blue="1.0" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color green="1.0" blue="0.8571428656578064" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </RadialGradient>
+                           </textFill>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <padding>
+                        <Insets left="10.0" top="225.0" />
+                     </padding>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets top="30.0" />
+               </padding>
+            </VBox>
+            <HBox alignment="CENTER" prefHeight="65.0" prefWidth="172.0" style="-fx-border-color: #787d94; -fx-border-radius: 30;">
+               <children>
+                  <Label text="Omita Omito" textAlignment="CENTER">
+                     <font>
+                        <Font name="Impact" size="20.0" />
+                     </font>
+                     <textFill>
+                        <RadialGradient centerX="0.5027624309392267" centerY="0.44549763033175355" focusAngle="-93.18" focusDistance="1.0" radius="0.9827586206896552">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color green="0.11428571492433548" blue="1.0" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="0.006711409395973154">
+                                 <color>
+                                    <Color green="0.11428571492433548" blue="1.0" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color green="0.7428571581840515" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </textFill>
+                  </Label>
+                  <Separator orientation="VERTICAL" prefHeight="41.0" prefWidth="17.0" visible="false" />
+                  <ImageView fitHeight="56.0" fitWidth="34.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@profile.gif" />
+                     </image>
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+         <opaqueInsets>
+            <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets top="15.0" />
+         </padding>
+         <HBox.margin>
+            <Insets />
+         </HBox.margin>
+      </VBox>
+      <VBox prefHeight="618.0" prefWidth="417.0" spacing="50.0">
+         <children>
+            <HBox alignment="CENTER" spacing="5.0" style="-fx-background-color: #0e0f29; -fx-background-radius: 30;">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <Label contentDisplay="RIGHT" prefHeight="102.0" prefWidth="231.0" text="Hello! Gym Go-er!!" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Impact" size="22.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                     <effect>
+                        <DropShadow height="38.1" radius="17.0875" spread="0.4" width="32.25" />
+                     </effect>
+                     <textFill>
+                        <RadialGradient centerX="0.494475138121547" centerY="0.509478672985782" focusAngle="26.57" focusDistance="-1.0" radius="0.9827586206896552">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="1.0" green="0.46666666865348816" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="0.006711409395973154">
+                                 <color>
+                                    <Color red="1.0" green="0.46666666865348816" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="0.723809540271759" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </textFill>
+                  </Label>
+                  <StackPane>
+                     <children>
+                        <ImageView fitHeight="97.0" fitWidth="108.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@calendar.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="1.0" />
+                           </effect>
+                        </ImageView>
+                        <VBox alignment="BOTTOM_CENTER" prefHeight="89.0" prefWidth="100.0">
+                           <children>
+                              <Label text="29">
+                                 <font>
+                                    <Font name="Impact" size="20.0" />
+                                 </font>
+                                 <textFill>
+                                    <RadialGradient centerX="0.707182320441989" centerY="0.17535545023696691" focusAngle="90.76" focusDistance="1.0" radius="1.0">
+                                       <stops>
+                                          <Stop>
+                                             <color>
+                                                <Color red="1.0" green="0.761904776096344" />
+                                             </color>
+                                          </Stop>
+                                          <Stop offset="0.006711409395973154">
+                                             <color>
+                                                <Color red="1.0" green="0.761904776096344" />
+                                             </color>
+                                          </Stop>
+                                          <Stop offset="1.0">
+                                             <color>
+                                                <Color red="0.8571428656578064" blue="1.0" />
+                                             </color>
+                                          </Stop>
+                                       </stops>
+                                    </RadialGradient>
+                                 </textFill>
+                              </Label>
+                              <Label text="December">
+                                 <textFill>
+                                    <RadialGradient centerX="0.707182320441989" centerY="0.17535545023696691" focusAngle="90.76" focusDistance="1.0" radius="1.0">
+                                       <stops>
+                                          <Stop>
+                                             <color>
+                                                <Color red="1.0" green="0.761904776096344" />
+                                             </color>
+                                          </Stop>
+                                          <Stop offset="0.006711409395973154">
+                                             <color>
+                                                <Color red="1.0" green="0.761904776096344" />
+                                             </color>
+                                          </Stop>
+                                          <Stop offset="1.0">
+                                             <color>
+                                                <Color red="0.8571428656578064" blue="1.0" />
+                                             </color>
+                                          </Stop>
+                                       </stops>
+                                    </RadialGradient>
+                                 </textFill>
+                                 <font>
+                                    <Font name="Impact" size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <padding>
+                              <Insets bottom="15.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </StackPane>
+               </children>
+               <effect>
+                  <DropShadow height="50.0" radius="24.5" spread="0.09" width="50.0" />
+               </effect>
+            </HBox>
+            <VBox prefHeight="228.0" prefWidth="382.0" spacing="20.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="208.0" prefWidth="511.0" spacing="30.0" style="-fx-background-color: #0e0f29; -fx-background-radius: 30;">
+                     <children>
+                        <Label prefHeight="33.0" prefWidth="244.0" text="Your Progress">
+                           <font>
+                              <Font name="Impact" size="26.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                           </padding>
+                           <textFill>
+                              <RadialGradient centerX="0.5248618784530388" centerY="0.3744075829383887" focusAngle="90.76" focusDistance="1.0" radius="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color green="1.0" blue="0.9904761910438538" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="0.006711409395973154">
+                                       <color>
+                                          <Color green="1.0" blue="0.9904761910438538" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="0.8571428656578064" blue="1.0" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </RadialGradient>
+                           </textFill>
+                        </Label>
+                        <StackPane blendMode="SRC_ATOP">
+                           <children>
+                              <Circle fill="#22517a" radius="68.0" strokeWidth="10.0">
+                                 <stroke>
+                                    <LinearGradient endX="1.0" endY="1.0" proportional="false" startX="0.5023696682464456" startY="1.0">
+                                       <stops>
+                                          <Stop>
+                                             <color>
+                                                <Color red="1.0" green="1.0" blue="1.0" />
+                                             </color>
+                                          </Stop>
+                                          <Stop offset="1.0">
+                                             <color>
+                                                <Color red="0.9342105388641357" green="0.2119273841381073" blue="0.2119273841381073" />
+                                             </color>
+                                          </Stop>
+                                       </stops>
+                                    </LinearGradient>
+                                 </stroke>
+                                 <effect>
+                                    <DropShadow height="0.0" radius="0.0" width="0.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </Circle>
+                              <Label alignment="CENTER" prefHeight="45.0" prefWidth="70.0" text="50%" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="Impact" size="36.0" />
+                                 </font>
+                                 <textFill>
+                                    <RadialGradient centerX="0.5" centerY="0.528436018957346" focusAngle="-145.95" focusDistance="-0.574712643678161" radius="1.0">
+                                       <stops>
+                                          <Stop>
+                                             <color>
+                                                <Color red="1.0" green="0.6000000238418579" />
+                                             </color>
+                                          </Stop>
+                                          <Stop offset="0.006711409395973154">
+                                             <color>
+                                                <Color red="1.0" green="0.6000000238418579" />
+                                             </color>
+                                          </Stop>
+                                          <Stop offset="1.0">
+                                             <color>
+                                                <Color red="0.8761904835700989" blue="1.0" />
+                                             </color>
+                                          </Stop>
+                                       </stops>
+                                    </RadialGradient>
+                                 </textFill>
+                              </Label>
+                           </children>
+                        </StackPane>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                     <effect>
+                        <DropShadow height="62.03" radius="26.8525" spread="0.09" width="47.38" />
+                     </effect>
+                  </HBox>
+               </children>
+            </VBox>
+            <HBox alignment="CENTER" prefHeight="159.0" prefWidth="382.0" spacing="30.0" style="-fx-background-color: #0e0f29; -fx-background-radius: 30;">
+               <children>
+                  <ImageView fitHeight="133.0" fitWidth="195.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@planning.png" />
+                     </image>
+                  </ImageView>
+                  <Label prefHeight="84.0" prefWidth="154.0" text="Your Plan">
+                     <font>
+                        <Font name="Impact" size="26.0" />
+                     </font>
+                     <textFill>
+                        <RadialGradient centerX="0.48066298342541436" centerY="0.5450236966824644" focusAngle="26.57" focusDistance="-1.0" radius="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color green="1.0" blue="0.8190476298332214" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="0.006711409395973154">
+                                 <color>
+                                    <Color green="1.0" blue="0.8190476298332214" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color green="0.22857142984867096" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </textFill>
+                     <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+         </children>
+         <HBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </HBox.margin>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </VBox>
+   </children>
+</HBox>
